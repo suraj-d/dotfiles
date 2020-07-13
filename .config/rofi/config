@@ -1,0 +1,24 @@
+rofi.modi: run,drun,window
+rofi.display-drun: open
+rofi.display-run: command
+rofi.auto-select: true
+rofi.click-to-exit: true
+rofi.fake-transparency: true
+rofi.theme: ~/.config/rofi/arcdark.rasi
+rofi.icon-theme: "Papirus"
+rofi.show-icons: true
+rofi.font: Bookerly Regular 11
+rofi.lines: 12
+rofi.padding: 18
+rofi.width:60
+rofi.location: 0
+rofi.sidebar-mode: true
+rofi.columns: 3
+
+
+
+
+
+
+
+
