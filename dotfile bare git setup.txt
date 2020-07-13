@@ -1,0 +1,6 @@
+git init --bare $HOME/dotfiles
+alias dotfileGit='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+dotfileGit config --local status.showUntrackedFiles no
+echo "alias dotfileGit='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
+
+https://www.atlassian.com/git/tutorials/dotfiles
