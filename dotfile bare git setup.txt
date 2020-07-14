@@ -12,3 +12,9 @@ dotfileGit reset --mixed origin/master
 dotfileGit add 
 dotfileGit commit -m ""
 dotfileGit push
+
+try
+git init
+git remote add origin git://github.com/repo-location/repo.git
+git fetch --all
+git pull origin master
