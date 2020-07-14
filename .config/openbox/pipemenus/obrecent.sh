@@ -9,7 +9,7 @@ do
 file=$(echo "$line")
 name=$(echo -en "$file" | sed 's,.*/,,' | sed 's/%20/ /g')
 echo "<item label=\"$name\">
-		<action name=\"Execute\"><command>xdg-open $line</command></action>
+		<action name=\"Execute\"><command>geany $line</command></action>
 	</item>"
 done);
 echo "$files"
