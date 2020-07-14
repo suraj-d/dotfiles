@@ -7,4 +7,8 @@ https://www.atlassian.com/git/tutorials/dotfiles
 
 
 on new setup
+dotfileGit pull --rebase origin master
 dotfileGit reset --mixed origin/master
+dotfileGit add 
+dotfileGit commit -m ""
+dotfileGit push
