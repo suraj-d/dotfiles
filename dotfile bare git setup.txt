@@ -4,3 +4,7 @@ dotfileGit config --local status.showUntrackedFiles no
 echo "alias dotfileGit='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
 
 https://www.atlassian.com/git/tutorials/dotfiles
+
+
+on new setup
+dotfileGit reset --mixed origin/master
