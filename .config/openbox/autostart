@@ -24,3 +24,4 @@ alsa-tray & #volume icon
 pamixer -u #unmute
 parcellite & #clipboard manager
 nm-applet & #network manager
+devilspie2 & #window placement
