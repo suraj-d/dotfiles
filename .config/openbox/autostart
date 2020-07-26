@@ -17,6 +17,7 @@
 #xfce-mcs-manager &
 
 nitrogen --restore & #wallpaper
+lxpolkit & #policy kit to open root app
 picom & #graphic setting
 tint2 & #panel bar
 ksuperkey & #window key for rofi
@@ -24,4 +25,5 @@ alsa-tray & #volume icon
 pamixer -u #unmute
 parcellite & #clipboard manager
 nm-applet & #network manager
-devilspie2 & #window placement
+devilspie2 & #window manager
+

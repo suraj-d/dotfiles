@@ -1,6 +1,30 @@
+#initialize git as bare in dotfiles folder
 git init --bare $HOME/dotfiles
+
+#set git-dir and work-tree for alias dotfileGit 
 alias dotfileGit='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
+#hide untracked filed when dotfileGit status run
 dotfileGit config --local status.showUntrackedFiles no
+
+#add alias to bash rc
 echo "alias dotfileGit='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
 
+#guide
 https://www.atlassian.com/git/tutorials/dotfiles
+
+#save login credintial
+git config --global credential.helper store
+
+#on new setup
+dotfileGit pull --rebase origin master
+dotfileGit reset --mixed origin/master
+dotfileGit add 
+dotfileGit commit -m ""
+dotfileGit push
+
+#try on new setup
+git init
+git remote add origin git://github.com/repo-location/repo.git
+git fetch --all
+git pull origin master
