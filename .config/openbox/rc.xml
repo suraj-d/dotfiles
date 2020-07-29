@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -290,7 +289,7 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>terminator</command>
+        <command>termite</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
@@ -322,6 +321,11 @@
     <keybind key="Print">
       <action name="Execute">
         <command>flameshot gui</command>
+      </action>
+    </keybind>
+    <keybind key="Menu">
+      <action name="ShowMenu">
+        <menu>root-menu</menu>
       </action>
     </keybind>
   </keyboard>
